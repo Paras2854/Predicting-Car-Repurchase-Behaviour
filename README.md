@@ -14,18 +14,23 @@ By analyzing historical data such as customer demographics, car preferences, and
   - Gain actionable insights into customer loyalty drivers.
 
 ## 🧠 Machine Learning Approach
-- Collected and processed customer demographic and transactional data.
-- Engineered relevant features influencing purchase behavior.
-- Trained a classification model to predict repurchase likelihood.
-- Evaluated performance using classification metrics (Accuracy, Precision, Recall, F1-Score).
+The following classification algorithms were implemented:
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- K Nearest Neighbors (KNN)  
+- Decision Tree Classifier  
+- Random Forest Classifier  
+- Extra Trees Classifier  
+
+📊 **Model Performance:**  
+Among all models tested, the **Random Forest Classifier** delivered the best predictive performance.
 
 ## 🛠️ Tools & Technologies
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - Matplotlib, Seaborn
-- Classification Algorithms (Logistic Regression, Random Forest, etc.)
-- Data Preprocessing & Feature Engineering
+- Jupyter Notebook
 
 ## ✅ Outcome
 The model achieved strong predictive performance and highlighted key drivers of customer loyalty. It provides valuable support for strategic decision-making in customer engagement and marketing campaigns.
